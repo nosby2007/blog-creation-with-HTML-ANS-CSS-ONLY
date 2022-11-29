@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif JP', serif;
+}
+
+body{
+    margin: 10px 80px;
+    
+    background-color: rgb(239, 255, 239);
+}
+
+.banner{
+    background-color: #000000;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+
+.features{
+    height: 400px;
+    width: 100%;
+    margin: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.feature h1{
+    margin-bottom: 30px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+nav h1{
+    font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav .onglets {
+    margin-top: 30px;
+
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #582cf8;
+    margin-right: 10;
+}
+.article{
+    margin-top: 30px;
+}
+
+.article .articles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.article .articles .left img{
+    height: 300px;
+    width: 500px;
+    margin-right: 30px;
+    margin-top: 40px;
+
+}
+.article .articles .left video{
+    height: 300px;
+    width: 500px;
+
+}
+.article .articles .right{
+    max-width: 50%;
+    margin-left: 40px;
+}
+.article .articles .right p.date{
+    color: rgb(185, 185, 190);
+}
+.article .articles .right p.desription{
+    color:  #2d2d2d; 
+}
+.article .articles .right p.auteur{
+    color: rgb(127, 3, 131);
+}
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(136, 138, 137);
+}
+footer h2{
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
+}
+
+footer .icones {
+    display: flex;
+}
+footer .icones p{
+    margin-right: 15px;
+    color: rgb(36, 136, 6);
+}
+
+footer .icones p:hover{
+    color: rgb(84, 5, 129);
+    font-size: 18px;
+}
